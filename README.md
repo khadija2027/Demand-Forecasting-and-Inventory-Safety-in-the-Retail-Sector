@@ -53,7 +53,7 @@ The analysis notebook provides comprehensive visualizations across 8 key dimensi
 
 ### Demand Forecasting Models
 
-We implemented and compared four regression models:
+We implemented and compared four regression models: LightGBM, XGBoost, Random Forest, Random Forest
 
 ### Stockout Detection
 
