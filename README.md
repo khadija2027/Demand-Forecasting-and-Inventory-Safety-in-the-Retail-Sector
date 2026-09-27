@@ -4,7 +4,7 @@ A comprehensive machine learning pipeline for retail demand forecasting and stoc
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [Dingdong-Inc/FreshRetailNet-50K](https://huggingface.co/datasets/Dingdong-Inc/FreshRetailNet-50K)
 
@@ -18,7 +18,7 @@ The dataset contains 50,000+ retail transactions with rich features including:
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 ### 1. Demand Forecasting
 Predict daily sales amounts (`sale_amount`) for each store-product combination to optimize inventory planning and reduce waste.
@@ -28,7 +28,7 @@ Identify patterns and signals that precede stockout events to enable proactive i
 
 ---
 
-## 🔍 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The analysis notebook provides comprehensive visualizations across 8 key dimensions:
 
@@ -49,7 +49,7 @@ The analysis notebook provides comprehensive visualizations across 8 key dimensi
 
 ---
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 ### Demand Forecasting Models
 
@@ -64,7 +64,7 @@ We implemented and compared four regression models: LightGBM, XGBoost, Random Fo
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 ### Metrics Used
 - **MAE** (Mean Absolute Error): Interpretable average error
@@ -84,7 +84,7 @@ We implemented and compared four regression models: LightGBM, XGBoost, Random Fo
 
 ---
 
-## 📊 Key Results Summary
+## Key Results Summary
 
 | Model | MAE | RMSE | R² | 
 |-------|-----|------|-----|
@@ -93,18 +93,18 @@ We implemented and compared four regression models: LightGBM, XGBoost, Random Fo
 | **MLP** | 0.4386 | 0.7880 | **0.9219** |
 | **Random Forest** | 0.4680 | 0.9754 | 0.9075 |
 
-**🎯 Key Insights:**
+**Key Insights:**
 - **MLP** achieves the highest R² (0.9219), explaining 92.19% of variance
 - **XGBoost** offers superior practical performance with lowest prediction errors
 - **LightGBM** provides strong results with faster training time
 - **Random Forest** serves as a solid baseline but is outperformed by gradient boosting methods
 
-**📈 Performance Comparison:**
+**Performance Comparison:**
 - XGBoost reduces MAE by **21%** compared to Random Forest
 - MLP achieves lowest RMSE (0.7880) but with higher MAE
 - Top 3 models all exceed 85% R² threshold
 
-## 📝 Source
+## Source
 @article{2025freshretailnet-50k,
       title={FreshRetailNet-50K: A Stockout-Annotated Censored Demand Dataset for Latent Demand Recovery and Forecasting in Fresh Retail},
       author={Yangyang Wang, Jiawei Gu, Li Long, Xin Li, Li Shen, Zhouyu Fu, Xiangjun Zhou, Xu Jiang},
